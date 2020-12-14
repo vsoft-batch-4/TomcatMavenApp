@@ -3,18 +3,18 @@ pipeline {
   stages {
     stage('testing') {
       steps {
-        echo 'hello test world'
+        echo 'hello test area'
       }
     }
 
     stage('uat') {
       steps {
-        echo 'hello uat mike'
+        echo 'hello uat area'
       }
     }
 
   }
   environment {
-    building = 'hello world'
+    building = 'hello environment area'
   }
 }
